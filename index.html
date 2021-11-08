@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" sizes="15x15" href="img/icone.png">
+    <script src="script.js" defer></script>
+    <title>Pixabay API</title>
+</head>
+<body class="column">
+    <header>
+        <div class="centralizar">
+            <img class="logo"src="img/icone.png">
+            <div class="container-pesquisa row">
+                <img src="img/pesquisar.png">
+                <input id="pesquisa" type="text" placeholder="Buscar">
+                <select class="row categorias">
+                    <option value="all">Imagens</option>
+                    <option value="photo">Fotos</option>
+                    <option value="vector">Imagens Vetoriais</option>
+                    <option value="illustration">Ilustrações</option>
+                </select>
+            </div>
+        </div>
+    </header>
+    <section id="container-categorias">
+        <div class="popular">
+        </div>
+        <div class="itens">
+        </div>
+    </section>
+    <main class="column">
+        <div class="centralizar">
+            <div class="status">
+            </div>
+        </div>
+         <div id="container-galeria">     
+         </div>   
+    </main>
+</body>
+</html>
